@@ -1,0 +1,89 @@
+html{
+  font-size: 15px;
+}
+
+body{
+  background-image: url(../images/bg4.png);
+  font-family: 'Open Sans', Arial;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-top: 30px;
+} 
+ 
+a{
+  text-decoration: none;
+}
+
+.profile {
+  overflow: hidden;
+  background-color: #e3e3e8;
+  box-shadow: 0 0 5px;		
+}
+
+.about {
+  float: left;
+  margin-top: 3%;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.about .photo-inner {
+  float: left;
+  background: url(../images/photo-inner.png) no-repeat;
+  width: 192px;
+  height: 212px;
+  padding: 12px 0 0 20px;
+}
+
+.about .photo-inner img {
+  background-color: #ffffff;
+}
+
+.about h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #581a1a;
+  margin-top: 5%;
+}
+
+.about p {
+  margin-top: 5%;
+  font-size: 1rem;
+  color: #581a1a;
+  line-height: 1rem;
+}
+
+.personal-info {
+  float: left;
+  margin-top: 3%;
+  width: 40%;
+  min-height: 230px;
+  margin-left: 3%;
+  background:url(../images/personal-info-sep.png) no-repeat left top;
+  padding: 12px 0 0 20px;
+}
+
+.personal-info li {
+  font-size: 1rem;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+.personal-info li label {
+  color: #581a1a;
+  background-color: #e2c6c6;
+  float: left;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
+
+.personal-info li span {
+  float: right;
+  width: 50%;
+  color: #581a1a;
+  padding: 4px 7px;
+}
