@@ -224,3 +224,48 @@ a{
   background: url(../images/rats.png) no-repeat 0px -98px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    background-color: #e3e3e8;
+    box-shadow: 0 0 5px;	
+    vertical-align: middle;
+}
+.social_img{
+    width: 55px;
+    height: 55px;
+    background:  url(../images/social-icons_copy.png) no-repeat;
+    border-radius: 10px;
+} 
+.vk{
+    background-position: -339px -48px;;
+    cursor: pointer;
+}
+.instagram{
+    background-position: -267px -48px;;
+    cursor: pointer;
+}
+.github{
+    background-position: -195px -335px;
+    cursor: pointer;
+}
+
+.social-links a:hover {
+    background-color:#2a2d2e;
+}
+
+.text_footer{
+    font-size: 1.5em;
+    color:#2a2d2e;
+    align-items: center;
+}
+
