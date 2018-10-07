@@ -5,12 +5,14 @@ html{
 body{
   background-image: url(../images/bg4.png);
   font-family: 'Open Sans', Arial;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 main {
-  margin: 0 auto;
-  max-width: 1024px;
-  margin-top: 30px;
+  padding: 5%;
+  overflow: hidden;
 } 
  
 a{
@@ -88,13 +90,12 @@ a{
   padding: 4px 7px;
 }
 
-.resume {
-  padding: 5%;
-  overflow: hidden;
-}
-
 .main-heading{
   font-size: 2rem;
+}
+
+h2.main-heading{
+  margin: 15px 2px;
 }
 
 .skills-section, .timeline-section {
@@ -225,33 +226,33 @@ a{
 }
 
 footer{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-    padding: 10px;
-    height: 40px;
-    background-color: #e3e3e8;
-    box-shadow: 0 0 5px;	
-    vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  height: 40px;
+  background-color: #e3e3e8;
+  box-shadow: 0 0 5px;	
+  vertical-align: middle;
 }
 
 .social_img{
-    width: 55px;
-    height: 55px;
-    background:  url(../images/social-icons_copy.png) no-repeat;
-    border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  background:  url(../images/social-icons_copy.png) no-repeat;
+  border-radius: 10px;
 }
 
 .vk{
-    background-position: -339px -48px;;
-    cursor: pointer;
+  background-position: -339px -48px;;
+  cursor: pointer;
 }
 
 .telegramm{
