@@ -88,5 +88,139 @@ a{
   padding: 4px 7px;
 }
 
+.resume {
+  padding: 5%;
+  overflow: hidden;
+}
 
+.main-heading{
+  font-size: 2rem;
+}
+
+.skills-section, .timeline-section {
+  float:left;
+}
+
+.timeline-section {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.timeline {
+  padding-top: 5%;
+  width: 80%;
+}
+
+.timeline li {
+  margin-bottom: 15%;
+  float: left;
+  width: 90%;
+}
+
+.timeline li .timelineUnit {
+  display: block;
+  width: 100%;
+  float: left;
+  line-height: 1rem;
+  margin-left: 3%;
+  color: #444;
+  font-size: 1rem;
+  border-left: 1px solid #fadc66;
+  padding-left: 5%;
+}
+
+.timeline li .timelineUnit .timelineDate {
+  float: right;
+  line-height: 2rem;
+  color: #581a1a;
+  font-size: 1rem;
+  margin-left: 3%;
+  font-weight: normal;
+  padding: 2px 6px;
+}
+
+.timeline li .timelineUnit h4 {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #444444;
+}
+
+.timeline li .timelineUnit h5 {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #999999;
+}
+
+.timeline li .timelineUnit p {
+  color: #666666;
+  font-size: 1rem;
+  margin-top: 3%;
+  text-align: justify;
+}
+
+.skills-section {
+  width: 40%;
+}
+
+.skills {
+  margin-top: 10%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.skills li {
+  margin-bottom: 15px;
+  float: left;
+  padding-left: 30px;
+}
+.skills li h4 {
+  width: 140px;
+  float: left;
+  font-size: 15px;
+  color: #444444;
+}
+.skills li .rat0, 
+.skills li .rat1, 
+.skills li .rat2, 
+.skills li .rat3, 
+.skills li .rat4, 
+.skills li .rat5, 
+.skills li .rat6, 
+.skills li .rat7 {
+  width: 123px;
+  height: 14px;
+  float: left;
+}
+
+.skills li .rat0 {
+  background: url(../images/rats.png) no-repeat;
+}
+
+.skills li .rat1 {
+  background: url(../images/rats.png) no-repeat 0px -14px;
+}
+
+.skills li .rat2 {
+  background: url(../images/rats.png) no-repeat 0px -28px;
+}
+
+.skills li .rat3 {
+  background: url(../images/rats.png) no-repeat 0px -42px;
+}
+
+.skills li .rat4 {
+  background: url(../images/rats.png) no-repeat 0px -56px;
+}
+
+.skills li .rat5 {
+  background: url(../images/rats.png) no-repeat 0px -70px;
+}
+
+.skills li .rat6 {
+  background: url(../images/rats.png) no-repeat 0px -84px;
+}
+
+.skills li .rat7 {
+  background: url(../images/rats.png) no-repeat 0px -98px;
+}
 
